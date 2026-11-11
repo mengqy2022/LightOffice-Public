@@ -1,0 +1,30 @@
+{
+  "kind": "fresh process; warm OS cache; no forced GC or working set trimming",
+  "version": "0.6.0.0",
+  "sha256": "06A2985F77155A1846F34DE68F5835E731600555778454DBF1967F61CEF8BAB4",
+  "firstStatusMs": 492,
+  "samples": [
+    {
+      "elapsedMs": 2122,
+      "workingSetBytes": 81522688,
+      "privateBytes": 96530432,
+      "handles": 581,
+      "cpuMs": 500.0
+    },
+    {
+      "elapsedMs": 10072,
+      "workingSetBytes": 81522688,
+      "privateBytes": 96464896,
+      "handles": 581,
+      "cpuMs": 500.0
+    },
+    {
+      "elapsedMs": 20035,
+      "workingSetBytes": 81526784,
+      "privateBytes": 96464896,
+      "handles": 581,
+      "cpuMs": 500.0
+    }
+  ],
+  "scope": "Historical local development build labelled 0.6.0.0; not a benchmark of the public Release or 0.7.2; original process path removed."
+}
