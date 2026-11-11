@@ -4,7 +4,7 @@
 
 第一次使用见[三分钟上手](quickstart.md)；按任务操作见[六个教程与效果对比](tutorials.md)，异常处理见[故障排查](troubleshooting.md)。
 
-这里按用户能完成的事情整理功能，既包含花屿中的工具，也包含工作台内部操作。0.6 为当前正式下载基线；标注 **0.7 候选** 的功能已在本地实现，尚未作为公开正式版发布。界面图不等于每个功能分支都已实机验收，实际范围见[验证说明](validation.md)。
+这里按用户能完成的事情整理功能，既包含花屿工具，也包含工作台内部操作。当前正式版 0.7.2.0 包含下列 0.7 系列能力；0.6 图片保留为历史基线。界面图不等于每个功能分支都已实机验收，实际范围见[验证说明](validation.md)。
 
 ## 24 个工具入口
 
@@ -67,7 +67,7 @@
 | 样式 | 六色色板、线宽、文字字号 | [操作](capture.md#标注色板线宽和文字) |
 | OCR | 中 / 英 / 系统语言、本地识别、编辑与复制原文 | [图](../screenshots/capture-ocr.png) |
 | 翻译 | 中英互译、复制译文、取消与失败保留原文 | [图](../screenshots/capture-translation.png) |
-| 服务配置 | **0.7 候选**：MyMemory / LibreTranslate、地址、密钥、测试连接 | [图](../screenshots/translation-service-0.7.2.png) |
+| 服务配置 | **0.7 系列**：MyMemory / LibreTranslate、地址、密钥、测试连接 | [图](../screenshots/translation-service-0.7.2.png) |
 | 输出 | 复制、保存、保存并贴图、直接贴图 | [操作](capture.md#输出与桌面贴图) |
 | 贴图交互 | 移动、滚轮缩放、边角调整、还原、另存、置顶和关闭 | [图](../screenshots/pinned-image.png) |
 | 快捷键 | 截图 / OCR / 翻译配置与冲突提示 | [图](../screenshots/shortcuts.png) |
@@ -77,13 +77,13 @@
 | 能力 | 子操作 | 图文 |
 |---|---|---|
 | 分类与工具库 | 六分类、搜索、常用优先、最多九操作、不可用原因 | [工具库](../screenshots/tool-library.png) |
-| 主题 | **0.7 候选**：经典 / 圆弧、自动保存；0.7.2 全工作台同步 | [主题专题](desktop.md#主题与大小) |
+| 主题 | **0.7 系列**：经典 / 圆弧、自动保存；0.7.2 全工作台同步 | [主题专题](desktop.md#主题与大小) |
 | 形态 | 保持紧凑、三档大小、展开、小花心 | [图](../screenshots/desktop-options-automatic.png) |
 | 多开 | 保留文件花屿，收起恢复，独立工作台 | [操作](desktop.md#多开收起与工作台置顶) |
 | 窗口管理 | 标题拖动、独立置顶、关闭、托盘找回 | [操作](desktop.md#多开收起与工作台置顶) |
 | 自动展开 | 总开关、暂停十分钟、目录排除与恢复、监听重连 | [操作](desktop.md#自动展开暂停和监听恢复) |
 | 动画 | 设置不同展开动画或关闭动画 | [设置入口](../screenshots/desktop-options-menu.png) |
-| 启动 | 登录自启；**0.7 候选**手动首次显示与重复唤起 | [说明](desktop.md#自动展开暂停和监听恢复) |
+| 启动 | 登录自启；**0.7 系列**手动首次显示与重复唤起 | [说明](desktop.md#自动展开暂停和监听恢复) |
 | 打开方式 | Windows 默认 / 推荐、自定义、排序、显式优先、追加系统推荐 | [行为表](desktop.md#windows-默认与推荐打开方式) |
 | 改名 | F2、前后缀、保留主名或序号、恢复 JSON、哈希复核 | [操作与细节图](desktop.md#f2单文件与批量重命名) |
 | 文本阅读 | 查找、上 / 下一处、换行、刷新、编码切换 | [操作](desktop.md#预览定位和复制路径) |
@@ -96,10 +96,10 @@
 | 办公引擎 | LibreOffice / Microsoft Office、已有程序选择与检测 | [能力表](components.md#需要什么组件) |
 | 压缩增强 | 7-Zip / Bandizip、格式与线程选项 | [压缩图](../screenshots/archive-compress.png) |
 | 组件管理 | 导入、取消、启停、刷新、占用、自管移除 | [当前图](../screenshots/components-current-0.7.2.png) |
-| PDF 原页预览 | **0.7 候选**：Windows 处理器或可选 MuPDF | [说明](components.md#pdfa4顺序水印) |
+| PDF 原页预览 | **0.7 系列**：Windows 处理器或可选 MuPDF | [说明](components.md#pdfa4顺序水印) |
 | 文件输出 | 原目录 / 桌面 / 文档 / 自选位置、查看结果 | [说明](components.md#压缩解压与安全另存) |
 | 失败与取消 | 原文件保留、拒绝覆盖、单文件半成品清理、批量保留已完成项 | [说明](components.md#压缩解压与安全另存) |
-| 安装与便携 | 安装包、ZIP、SHA-256；**0.7 候选**版本并存、标准卸载和回退 | [下载说明](../releases/README.md) |
+| 安装与便携 | 安装包、ZIP、SHA-256；**0.7 系列**版本并存、标准卸载和回退 | [下载说明](../releases/README.md) |
 
 ## 尚未实现的内容
 

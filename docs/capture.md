@@ -2,7 +2,7 @@
 
 [全部功能](catalog.md) · [基础使用](usage.md) · [隐私与组件](components.md)
 
-截图、OCR、GUI 内中英翻译在 0.6 正式版可用。深色工具栏、翻译服务配置图来自 0.7.2 本地候选，下载以 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 为准。
+截图、OCR、GUI 内中英翻译在 0.6 正式版可用。深色工具栏、翻译服务配置图来自 0.7.2 正式版，下载以 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 为准。
 
 ## 截图和选区调整
 
@@ -40,7 +40,7 @@
 
 <img src="../screenshots/capture-translation.png" width="1000" alt="原文和译文直接显示在轻舟截图工作台" />
 
-默认 MyMemory；本地候选的「翻译服务…」还支持配置 LibreTranslate 自托管或兼容服务。
+默认 MyMemory；0.7.2 的「翻译服务…」还支持配置 LibreTranslate 自托管或兼容服务。
 
 <img src="../screenshots/translation-service-0.7.2.png" width="900" alt="LibreTranslate地址、API Key、测试连接和保存配置界面" />
 

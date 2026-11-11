@@ -13,7 +13,7 @@
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.6.0/LightOffice-0.6.0.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.6.0/LightOffice-0.6.0.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.2/LightOffice-0.7.2.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.2/LightOffice-0.7.2.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -27,7 +27,7 @@
 
 ## 功能导航与版本
 
-**当前正式下载为 0.6.0.0；0.7.2.0 为本地候选，尚未作为正式版发布。** 新主题、启动修复与翻译服务配置分别标注版本，避免把候选图当作已发布能力。
+**当前正式版为 0.7.2.0。** 包含经典 / 圆弧主题、全工作台换色、启动修复、翻译服务配置与标准卸载；0.6 图片保留为历史功能基线。
 
 | 想做什么 | 图文教程 |
 |---|---|
@@ -51,7 +51,7 @@
 |---|---|
 | ![PDF纵向页面等比转A4](assets/demos/pdf-a4-before-after.png) | ![图片实际缩小和水印结果](assets/demos/image-before-after.png) |
 
-PDF 与图片结果由 0.7.2 候选实际处理；图示纸张不是扫描件，验证的是页面尺寸与比例。旧版有相同基础工具，候选新增界面和版本差异另有标注。
+PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证的是页面尺寸与比例。旧版有相同基础工具，0.7 新增界面和版本差异另有标注。
 
 <img src="assets/demos/data-steps.gif" width="1000" alt="清理、组合筛选、重新打开源文件后汇总绘图的步骤图轮播，非操作录像" />
 
@@ -72,7 +72,7 @@ PDF 与图片结果由 0.7.2 候选实际处理；图示纸张不是扫描件，
 
 ## 数据科学：看见条件，也看见结果
 
-下图为 0.7.2 候选界面，数据能力在 0.6 已提供。实际组合条件“地区等于华东，金额 ≥ 100”，预览只保留 A001。完整专题包含 16 种条件、AND / OR、列名、类型、清理、去重、五种汇总、追加和流程复用。
+下图为 0.7.2界面，数据能力在 0.6 已提供。实际组合条件“地区等于华东，金额 ≥ 100”，预览只保留 A001。完整专题包含 16 种条件、AND / OR、列名、类型、清理、去重、五种汇总、追加和流程复用。
 
 <img src="screenshots/data-combined-filters-0.7.2.png" width="1000" alt="真实组合筛选与单条匹配结果" />
 
@@ -104,7 +104,7 @@ PDF 与图片结果由 0.7.2 候选实际处理；图示纸张不是扫描件，
 
 <img src="screenshots/capture-annotation-options-0.7.2.png" width="1000" alt="0.7.2候选：箭头、色板、线宽和识别翻译工具栏" />
 
-框选、窗口、全屏，矩形 / 箭头 / 文字 / 打码、色板与线宽、手柄、撤销和键盘微调。结果可复制、保存、保存并贴图或直接贴图；贴图支持移动、缩放与另存。0.7 候选增加 [LibreTranslate 服务配置](screenshots/translation-service-0.7.2.png)。
+框选、窗口、全屏，矩形 / 箭头 / 文字 / 打码、色板与线宽、手柄、撤销和键盘微调。结果可复制、保存、保存并贴图或直接贴图；贴图支持移动、缩放与另存。0.7 系列增加 [LibreTranslate 服务配置](screenshots/translation-service-0.7.2.png)。
 
 [完整操作、快捷键与隐私 →](docs/capture.md)
 
@@ -122,7 +122,7 @@ PDF 与图片结果由 0.7.2 候选实际处理；图示纸张不是扫描件，
 
 ## 经典与圆弧，两种风格保留
 
-以下为 0.7 本地候选。默认经典，圆弧可选；0.7.2 功能窗口、输入框、表格和工具栏即时同步，切换时保留参数与数据。
+以下功能已随 0.7.2 正式发布。默认经典，圆弧可选；0.7.2 功能窗口、输入框、表格和工具栏即时同步，切换时保留参数与数据。
 
 | 经典花屿 | 圆弧花屿 |
 |---|---|
@@ -134,11 +134,11 @@ PDF 与图片结果由 0.7.2 候选实际处理；图示纸张不是扫描件，
 
 ## 安装与更新
 
-1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.6.0.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
+1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.2.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
 2. 按[下载校验说明](releases/README.md)核对 SHA-256。安装器仅安装到当前用户目录，无需管理员权限；也可解压 ZIP 后运行 `LightOffice.exe`。
 3. 从托盘设置紧凑尺寸、登录自启、置顶与可选组件。开始菜单 / 桌面快捷方式使用同一品牌图标。
 
-需要 Windows 10 / 11 和系统 .NET Framework 4.8。基础包不含外部办公 / 压缩引擎；0.6 正式版需手动移除；0.7 候选已有标准卸载及版本回退，差异见[组件和安装说明](docs/components.md#安装与卸载的版本差异)。
+需要 Windows 10 / 11 和系统 .NET Framework 4.8。基础包不含外部办公 / 压缩引擎；0.6 正式版需手动移除；0.7 系列已有标准卸载及版本回退，差异见[组件和安装说明](docs/components.md#安装与卸载的版本差异)。
 
 ## 验证与功能边界
 
@@ -150,4 +150,4 @@ PDF 与图片结果由 0.7.2 候选实际处理；图示纸张不是扫描件，
 
 [报告问题](https://github.com/mengqy2022/LightOffice-Public/issues/new?template=bug_report.yml) · [提出建议](https://github.com/mengqy2022/LightOffice-Public/issues/new?template=feature_request.yml) · [后续路线](docs/roadmap.md)
 
-提交前可先查[故障排查](docs/troubleshooting.md)。请附版本、Windows 版本、复现步骤和错误提示，并移除私人文件内容、账号与路径，参阅[文件与网络说明](docs/privacy.md)。文档和品牌许可见 [LICENSE](LICENSE)；第三方组件通知与许可证随发行包提供。
+提交前可先查[故障排查](docs/troubleshooting.md)。请附版本、Windows 版本、复现步骤和错误提示，并移除私人文件内容、账号与路径，参阅[文件与网络说明](docs/privacy.md)。自有程序和新材料采用[专有许可](docs/licensing.md)，保留[先前 MIT 授权](LICENSE-LEGACY-MIT.txt)，完整条款见 [LICENSE](LICENSE)；第三方组件通知与许可证随发行包提供。

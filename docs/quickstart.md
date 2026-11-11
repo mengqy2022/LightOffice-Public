@@ -2,7 +2,7 @@
 
 [下载安装](../releases/README.md) · [六个任务教程](tutorials.md) · [遇到问题](troubleshooting.md)
 
-适用 Windows 10 / 11、系统 .NET Framework 4.8。公开正式版为 0.6.0.0，圆弧主题等 0.7 候选功能见[版本对照](versions.md)。基础使用无需安装 Microsoft Office、Python 或 R。
+适用 Windows 10 / 11、系统 .NET Framework 4.8。公开正式版为 0.7.2.0，旧版差异见[版本对照](versions.md)。基础使用无需安装 Microsoft Office、Python 或 R。
 
 ## 第一分钟：安装或解压
 

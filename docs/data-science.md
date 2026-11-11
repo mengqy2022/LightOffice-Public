@@ -2,7 +2,7 @@
 
 [功能导航](catalog.md) · [下载演示文件](../examples/README.md) · [全部工具](features.md)
 
-适用：0.6 正式版已有数据处理和绘图；下列深色界面来自 0.7.2 本地候选。当前公开下载以 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 为准。数据科学处理 CSV / TSV，无需 Excel、Python 或 R。
+适用：0.6 正式版已有数据处理和绘图；下列深色界面来自 0.7.2 正式版。当前公开下载以 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 为准。数据科学处理 CSV / TSV，无需 Excel、Python 或 R。
 
 ## 先认识工作台
 

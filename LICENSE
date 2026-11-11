@@ -1,21 +1,44 @@
-MIT License
+LightOffice 0.7.2.0 and later - Proprietary Software and Materials License
+Copyright (c) 2026 LightOffice rights holders. All rights reserved.
+Effective for newly licensed material from 2026-11-11.
 
-Copyright (c) 2026 LightOffice contributors
+1. Permission to use
+You may download official LightOffice releases and use them, without charge,
+for lawful personal or internal business purposes. You may keep backup copies.
+You may read the public documentation, use the supplied synthetic examples,
+and link to the official repository or Releases page. This is not a transfer
+of ownership or a license to the private source code.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. Reserved rights
+Except as separately permitted in writing, you may not sell, sublicense,
+publish modified builds, or redistribute newly licensed proprietary program
+files or materials. Do not remove ownership notices or represent modified
+or unofficial software as an official LightOffice release. No trademark or
+brand license is granted. Reverse engineering, decompilation and disassembly
+are restricted only to the extent permitted by applicable law; mandatory
+rights, interoperability exceptions and lawful security research are not
+overridden by this license.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. Earlier grants are preserved
+This license does not revoke, narrow or replace any valid MIT or other
+permission already granted for earlier copies, releases or material. The
+previous MIT text is retained in LICENSE-LEGACY-MIT.txt. Identical material
+previously distributed under MIT retains those permissions. The effective
+date or version number alone does not withdraw prior grants.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+4. Third-party components
+Third-party components and optional engines retain their own licenses.
+Their licenses control those components, including applicable source access
+and redistribution rights. See THIRD-PARTY-NOTICES.md and bundled notices.
+This license does not claim exclusive rights in third-party code.
+
+5. Disclaimer and termination
+THE SOFTWARE AND MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE
+RIGHTS HOLDERS ARE NOT LIABLE FOR DAMAGES ARISING FROM THEIR USE. A material
+breach terminates this license for newly licensed material; permissions
+independently granted under earlier or third-party licenses are unaffected.
+
+For separate distribution or commercial licensing permission, contact the
+maintainer through https://github.com/mengqy2022/LightOffice-Public .

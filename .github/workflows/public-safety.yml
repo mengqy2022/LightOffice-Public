@@ -1,0 +1,41 @@
+name: Public repository safety
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  public-files:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Reject development artifacts and recognizable credentials
+        shell: python
+        run: |
+          import pathlib, re, subprocess
+          forbidden = {'.cs','.csproj','.sln','.vb','.fs','.pdb','.mdb','.map','.snupkg','.pfx','.p12','.key','.pem','.exe','.dll','.zip','.7z','.rar','.nupkg','.ps1','.py'}
+          seen = set()
+          for commit in subprocess.check_output(['git','rev-list','--all'], text=True).splitlines():
+              for record in subprocess.check_output(['git','ls-tree','-rz',commit]).decode().split('\0'):
+                  if not record:
+                      continue
+                  metadata, name = record.split('\t',1)
+                  mode, kind, oid = metadata.split()
+                  path = pathlib.PurePosixPath(name)
+                  assert kind == 'blob' and mode not in {'120000','160000'}, f'Link or submodule: {name}'
+                  assert path.suffix.lower() not in forbidden, f'Forbidden file: {name}'
+                  assert not any(p.lower() in {'src','tests','artifacts','.packages','.vs','engines'} for p in path.parts), f'Forbidden directory: {name}'
+                  assert not re.search(r'(?i)(mapping|obfuscar|recorder|\.env(?:\.|$)|credentials)',path.name), f'Private artifact: {name}'
+                  if oid in seen:
+                      continue
+                  seen.add(oid)
+                  body = subprocess.check_output(['git','cat-file','blob',oid])
+                  if path.suffix.lower() in {'.md','.txt','.json','.yml','.yaml','.xml','.config','.ini','.csv'} or path.name == 'LICENSE':
+                      patterns = [rb'-----BEGIN (?:RSA |EC |OPENSSH |ENCRYPTED )?PRIVATE KEY-----',rb'\b(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{50,})\b',rb'\b(?:AKIA|ASIA)[A-Z0-9]{16}\b']
+                      for pattern in patterns:
+                          assert not re.search(pattern,body), f'Recognizable credential: {name}'
+          print(f'PASS: checked {len(seen)} historical blobs; no source, symbols, programs or recognizable credentials')

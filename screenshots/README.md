@@ -2,7 +2,7 @@
 
 [全功能导航](../docs/catalog.md) · [操作手册](../docs/features.md) · [体验数据与真实输出](../examples/README.md)
 
-共 62 张界面图与合成封面，按场景分组，两列浏览，点击图片可放大。原有 0.6 正式版图保留版本基线，文件名含 0.7 的为本地候选，当前公开下载以 Releases 为准。
+共 62 张界面图与合成封面，按场景分组，两列浏览，点击图片可放大。原有 0.6 正式版图保留版本基线，文件名含 0.7 的图采集于候选阶段，所示能力已随 0.7.2 正式发布，当前公开下载以 Releases 为准。
 
 所有图来自真实 WPF 界面或基于真实界面的组合，使用合成输入。新增细节图离屏渲染，不截图私人桌面。组件本机路径已隐藏，批量改名目录已明确替换；翻译服务图使用保留示例域名，未访问服务。PDF 水印旧图仅为位置示意，不能代表已显示真实原页。
 
@@ -24,7 +24,7 @@
 | **桌面与启动设置菜单**<br/><a href="desktop-options-menu.png"><img src="desktop-options-menu.png" width="480" alt="桌面与启动设置菜单" /></a> | **自动展开与紧凑尺寸设置**<br/><a href="desktop-options-automatic.png"><img src="desktop-options-automatic.png" width="480" alt="自动展开与紧凑尺寸设置" /></a> |
 | **全部工具搜索与常用项**<br/><a href="tool-library.png"><img src="tool-library.png" width="480" alt="全部工具搜索与常用项" /></a> | **关于页（开发路径已显式遮盖）**<br/><a href="about.png"><img src="about.png" width="480" alt="关于页（开发路径已显式遮盖）" /></a> |
 
-## 主题与工作台（0.7 本地候选）
+## 主题与工作台（0.7 系列）
 
 [步骤与边界](../docs/preview-0.7.md)
 
