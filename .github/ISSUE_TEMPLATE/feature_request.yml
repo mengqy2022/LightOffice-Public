@@ -1,0 +1,17 @@
+name: 功能建议
+description: 描述具体使用场景与想解决的问题。
+title: "[Feature] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景与目前遇到的困难
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望的操作与结果
+      description: 如涉及大文件，请给出格式、大小与设备内存；无需上传私人数据。
+    validations:
+      required: true

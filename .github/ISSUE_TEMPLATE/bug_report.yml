@@ -1,0 +1,34 @@
+name: 报告问题
+description: 提交可复现的软件问题，帮助改进轻舟。
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先阅读常见问题。请移除账号、Token、私人路径和文件内容，优先使用合成示例。"
+  - type: input
+    id: version
+    attributes:
+      label: 轻舟版本
+      placeholder: 例如 0.6.0.0（关于轻舟中查看）
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows 与组件环境
+      description: Windows 版本、显示缩放，涉及办公或压缩时请写引擎及版本。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际结果
+      description: 从哪个入口进入、输入类型、参数、错误提示；可附脱敏图片。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
