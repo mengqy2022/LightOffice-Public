@@ -2,12 +2,12 @@
 
 [下载安装](../releases/README.md) · [六个任务教程](tutorials.md) · [遇到问题](troubleshooting.md)
 
-适用 Windows 10 / 11、系统 .NET Framework 4.8。公开正式版为 0.7.2.0，旧版差异见[版本对照](versions.md)。基础使用无需安装 Microsoft Office、Python 或 R。
+适用 Windows 10 / 11、系统 .NET Framework 4.8。公开正式版为 0.7.3.0，旧版差异见[版本对照](versions.md)。基础使用无需安装 Microsoft Office、Python 或 R。
 
 ## 第一分钟：安装或解压
 
 1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 Setup，或选择便携 ZIP；需要核对时按[下载说明](../releases/README.md)比较 SHA-256。
-2. 安装版完成后运行轻舟；便携版解压整个目录，再运行 `LightOffice.exe`。保留同目录 DLL、配置与许可，不要只复制 EXE。
+2. 安装版按向导阅读许可与说明、选择可写目录和快捷方式，自启默认关闭；详见[安装指南](installation.md)。完成后可勾选运行；便携版解压整个目录，再运行 `LightOffice.exe`。保留同目录 DLL、配置与许可，不要只复制 EXE。
 3. 查看任务栏右侧托盘，必要时展开隐藏图标。0.6 首次手动启动可能只在托盘运行，选中文件后呼出；0.7.1 起修复了首次手动启动显示。登录自启则有意在后台运行。
 
 ## 第二分钟：选一个样例文件

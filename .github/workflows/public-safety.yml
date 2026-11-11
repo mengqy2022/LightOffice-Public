@@ -17,7 +17,7 @@ jobs:
         shell: python
         run: |
           import pathlib, re, subprocess
-          forbidden = {'.cs','.csproj','.sln','.vb','.fs','.pdb','.mdb','.map','.snupkg','.pfx','.p12','.key','.pem','.exe','.dll','.zip','.7z','.rar','.nupkg','.ps1','.py'}
+          forbidden = {'.iss','.cs','.csproj','.sln','.vb','.fs','.pdb','.mdb','.map','.snupkg','.pfx','.p12','.key','.pem','.exe','.dll','.zip','.7z','.rar','.nupkg','.ps1','.py'}
           seen = set()
           for commit in subprocess.check_output(['git','rev-list','--all'], text=True).splitlines():
               for record in subprocess.check_output(['git','ls-tree','-rz',commit]).decode().split('\0'):

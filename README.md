@@ -13,7 +13,7 @@
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.2/LightOffice-0.7.2.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.2/LightOffice-0.7.2.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.3/LightOffice-0.7.3.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.3/LightOffice-0.7.3.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -27,7 +27,7 @@
 
 ## 功能导航与版本
 
-**当前正式版为 0.7.2.0。** 包含经典 / 圆弧主题、全工作台换色、启动修复、翻译服务配置与标准卸载；0.6 图片保留为历史功能基线。
+**当前正式版为 0.7.3.0。** 新版增加完整中文安装向导、自定义目录、许可说明及独立卸载程序；[安装与卸载指南](docs/installation.md)。 包含经典 / 圆弧主题、全工作台换色、启动修复、翻译服务配置与标准卸载；0.6 图片保留为历史功能基线。
 
 | 想做什么 | 图文教程 |
 |---|---|
@@ -134,7 +134,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 ## 安装与更新
 
-1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.2.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
+1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.3.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
 2. 按[下载校验说明](releases/README.md)核对 SHA-256。安装器仅安装到当前用户目录，无需管理员权限；也可解压 ZIP 后运行 `LightOffice.exe`。
 3. 从托盘设置紧凑尺寸、登录自启、置顶与可选组件。开始菜单 / 桌面快捷方式使用同一品牌图标。
 
