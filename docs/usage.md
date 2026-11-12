@@ -1,16 +1,18 @@
-﻿# 轻舟使用说明
+# 轻舟使用说明
 
 找具体操作：[全部功能](catalog.md) · [数据科学](data-science.md) · [截图与翻译](capture.md) · [花屿与改名](desktop.md) · [组件与转换](components.md) · [体验数据](../examples/README.md)
 
 0.7.2 正式版：在「花屿主题」选择圆弧后，工具窗口、输入和表格同步为反差色主题，已打开窗口即时更新并保留参数；选择经典恢复浅色。界面主题保留图片和图表的原始颜色，详见 [0.7 图文说明](preview-0.7.md)。
 
-适用版本：0.7.4.0，Windows 10/11，.NET Framework 4.8。
+适用版本：0.7.5.1，Windows 10/11，.NET Framework 4.8。
 
 0.7.4 增加截图画笔、Enter 复制并完成、小屏布局、引导与实操。0.7.2 的圆弧主题和 0.7.3 的完整安装向导继续保留；版本差异和未验范围见[更新记录](changelog.md)与[验证说明](validation.md)。
 
+0.7.5.1新增[纸墨、透明文件夹列表、母子花心与组配色](desktop.md)，并修复预览关闭异常；安装时检测运行状态，识别Inno旧版原位更新，详情见[安装指南](installation.md)。
+
 ## 启动和桌面设置
 
-安装器在当前用户目录 `%LOCALAPPDATA%\Programs\LightOffice\0.7.4.0` 安装并创建快捷方式，无需管理员权限；也可解压正式 ZIP 后运行 `LightOffice.exe`。保留同目录 DLL、配置和许可。程序在托盘常驻；单击选中文件会显示对应工具花屿，托盘双击或 `Ctrl+Alt+Space` 可手动呼出。
+安装器在当前用户目录 `%LOCALAPPDATA%\Programs\LightOffice\Current` 安装并创建快捷方式，无需管理员权限；也可解压正式 ZIP 后运行 `LightOffice.exe`。保留同目录 DLL、配置和许可。程序在托盘常驻；单击选中文件会显示对应工具花屿，托盘双击或 `Ctrl+Alt+Space` 可手动呼出。
 
 托盘或花屿右键菜单提供：
 

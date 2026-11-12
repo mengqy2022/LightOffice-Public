@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/brand/lightoffice-128.png" width="88" alt="轻舟六瓣花图标" />
 
@@ -15,7 +15,7 @@
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.4/LightOffice-0.7.4.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.4/LightOffice-0.7.4.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -29,9 +29,28 @@
 
 README 提供简体中文与英文入口；**软件界面和安装向导目前为简体中文**，文档语言切换不改变软件语言。详细专题目前主要为中文。
 
+## 0.7.5.1：纸墨与文件夹花心
+
+**当前版本：0.7.5.1 · 2026-11-12。**
+
+| 纸墨分类卡片 | 透明文件夹列表 |
+|---|---|
+| ![纸墨分类菜单](screenshots/flower-paper-0.7.5.png) | ![纸墨文件夹浏览](screenshots/folder-preview-paper-0.7.5.png) |
+
+[下载修正版](https://github.com/mengqy2022/LightOffice-Public/releases/tag/v0.7.5.1) · [更新记录](docs/changelog.md) · [验证范围](docs/validation.md)
+
+- **第三主题「纸墨」**：暖纸色、深墨选中态与圆角卡片分类；花屿、预览和工作台同步换色。右键花屿 → 花屿主题 → 纸墨，随时切回经典 / 圆弧。
+- **收起文件夹浏览**：悬停约 0.4 秒打开相邻的透明胶囊滑动列表（每行只显示名称），文件夹优先，每次增加 100 项，最多 2000 项；只读当前层，不递归扫描内容。双击文件用系统默认程序打开，双击目录进入，‹ / Alt+Left / Backspace 返回。
+- **母子花心**：单击子文件夹，等待系统双击间隔后保留为新花心；也可选中后在「···」或右键菜单选择「保留所选子文件夹为花心」。母子可逐层打开，关闭互不影响，重复路径复用，最多十二个。单击小花心或名称仍展开工具，按住拖动，Ctrl+M 当前收起 / 展开、Ctrl+Shift+M 全部切换（花屿内快捷键）。
+- **文件夹组配色**：右键 → 文件夹组配色；青竹 / 湖蓝 / 藤紫 / 麦穗 / 陶土随主题映射。母目录与其子目录共用配色，自动颜色按当前记录分配；手选后立即保存。只改变轻舟界面，不改变磁盘文件夹。
+- **0.7.5.1 修复**：预览关闭期间失焦 / 重绘重复关闭的异常已修正；子花心保留成功后不再因此弹出失败提示。纸墨分类改为独立圆角卡片，收起标签和列表同步暖纸配色。
+- **安装运行提示**：启动安装器即检查轻舟是否运行，请先保存工作台并从托盘退出；安装器不强制关闭程序。识别 Inno 旧版后沿用目录更新，SHA-256 相同文件跳过；下载仍是完整包。
+
+预览不读取文件内容生成缩略图，隐藏 / 系统项默认关闭。离开约 0.5 秒或 Esc 关闭预览；慢网络 IO 结果关闭后丢弃。目录按路径分组，目录联接不解析为同一实体。详见[桌面与文件夹使用方法](docs/desktop.md)。
+
 ## 功能导航与版本
 
-**当前版本为 0.7.4.0。** 新增截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
+**当前版本为 0.7.5.1。** 新增纸墨主题、文件夹分层预览、母子花心与主题配色，修复预览重复关闭异常，并补充跨版本安装更新。保留0.7.4的截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧 / 纸墨主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
 
 | 想做什么 | 图文教程 |
 |---|---|
@@ -144,7 +163,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 ## 安装与更新
 
-1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.4.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
+1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.5.1-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
 2. 按[下载校验说明](releases/README.md)核对 SHA-256。安装器仅安装到当前用户目录，无需管理员权限；也可解压 ZIP 后运行 `LightOffice.exe`。
 3. 从托盘设置紧凑尺寸、登录自启、置顶与可选组件。开始菜单 / 桌面快捷方式使用同一品牌图标。
 
@@ -152,11 +171,11 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 ## 验证与功能边界
 
-截图来自真实 WPF 窗口与合成文件，界面展示与实际导出验证分别记录。PDF 水印通过独立引擎比对文字、纸张、旋转及移除后的页面像素；7z / RAR 检查包含真实外部引擎。当前保护构建通过 165 项画笔 / Enter / 小屏专项，剪贴板使用隔离接口，未改动用户剪贴板。此前候选完成真实双屏 DPI、Windows 缩放设置、桌面截图及 112 项人工窗口操作；短时 S0 进退有系统记录。2026-11-12 用户已实测确认画笔绘制、整笔撤销及 Enter 复制后聊天框 Ctrl+V 粘贴正常；此确认仅覆盖实际使用环境。真实登录、长期待机 / 休眠和干净系统组合仍需验收。
+0.7.5.1使用同一受保护主程序完成27项关闭流程 / 纸墨回归、119项文件夹预览、146项花心、76项操作和125项教学检查。27项回归包括真实CSV工作台离屏切换后的输入、数据与对比度；完整工作台主题矩阵曾触发前台保护断言，未记为通过。文件夹控件事件测试不等于物理鼠标、多屏DPI或网络目录全矩阵验收。当前发行包的安装验证见[验证说明](docs/validation.md)。
 
-当前安装包采用同一正式 ZIP 制作隔离测试，38 项真实安装 / 卸载通过，89 项程序 / 文档载荷逐文件哈希匹配。程序与安装器目前未做代码签名，下载后请核对 `.sha256`。
+功能图来自真实WPF控件与合成目录，透明列表空白不绘制背景，不发布私人桌面或原始文件。此前0.7.4用户确认画笔、整笔撤销与Enter复制后聊天框粘贴正常，历史人工和系统恢复证据保留其版本范围，不冒充本次重验。
 
-请阅读[功能边界与常见问题](docs/faq.md)、[验证说明](docs/validation.md)和[已有测量](docs/performance.md)。历史启动 / 内存数据标明构建与条件，不作为所有机器或新版的性能保证。
+程序与安装器未代码签名，下载后请核对 `.sha256`。基础包不包含大型可选引擎，不支持500 MB–2 GB XLSX结构化编辑或通用扫描PDF无损去水印；更多边界见[FAQ](docs/faq.md)和[测量说明](docs/performance.md)。
 
 ## 参与反馈
 

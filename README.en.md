@@ -15,7 +15,7 @@ Images · PDF · Screenshots, OCR and translation · Archives · CSV data scienc
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**Download installer**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.4/LightOffice-0.7.4.0-Setup.exe) · [Portable ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.4/LightOffice-0.7.4.0-windows.zip) · [All features](docs/catalog.md) · [Screenshot gallery](screenshots/README.md) · [Report an issue](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**Download installer**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [Portable ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [All features](docs/catalog.md) · [Screenshot gallery](screenshots/README.md) · [Report an issue](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="LightOffice flower menu, data workbench and in-app translation using synthetic demo files; historical 0.6 interface" />
 
@@ -23,11 +23,30 @@ Images · PDF · Screenshots, OCR and translation · Archives · CSV data scienc
 
 LightOffice is a Windows tray utility built with C# and WPF. Select a file to reveal a flower menu with relevant actions. Tool windows can move independently, close and stay on top while you continue working with other files.
 
-**Current release: 0.7.4.0.** This is the English product overview. The application interface, installer and detailed guides are currently in **Simplified Chinese**; switching README language does not change the application language. Links to detailed guides below lead to Chinese documentation.
+**Current release: 0.7.5.1.** This is the English product overview. The application interface, installer and detailed guides are currently in **Simplified Chinese**; switching README language does not change the application language. Links to detailed guides below lead to Chinese documentation.
 
 The base package does not include LibreOffice, 7-Zip, Bandizip, Python or R. Configure optional engines only when needed. File processing runs locally; online translation sends text only when requested. This repository contains product documentation, synthetic examples, screenshots and binary releases. Development source code, tests and protection mappings are not published here.
 
-## What's new in 0.7.4
+## New in 0.7.5.1
+
+**Released 2026-11-12.** [Release notes and downloads](https://github.com/mengqy2022/LightOffice-Public/releases/tag/v0.7.5.1).
+
+| Paper category cards | Transparent folder browser |
+|---|---|
+| ![Paper categories](screenshots/flower-paper-0.7.5.png) | ![Paper folder browser](screenshots/folder-preview-paper-0.7.5.png) |
+
+- **Paper theme:** warm paper surfaces, dark ink selection and separate rounded category cards throughout the flower menu, folder browser and workbenches. Select Paper from the flower theme menu; Classic and Circular remain available.
+- **Collapsed-folder browser:** hover for 400 ms to show a compact scrollable pill list with names only and transparent gaps; double-click a file to open it with Windows, or a folder to navigate. Use the back button, Alt+Left or Backspace to go up. Loads 100 entries initially, up to 2,000 with Load more, without recursive scanning.
+- **Nested folder flowers:** single-click a subfolder and wait for the system double-click interval, or select it and choose Keep selected folder as flower from the ellipsis/context menu. Parent and child flowers close independently; repeated paths reuse an existing flower, up to twelve total. Click a flower icon/name to expand its tools, drag to reposition; Ctrl+M and Ctrl+Shift+M operate within the flower UI.
+- **Theme-aware folder groups:** choose Bamboo, Lake, Wisteria, Wheat or Terracotta in the context menu. Descendants inherit the parent group. Automatic colors follow the existing group records; explicit choices save immediately, and group records also save with other preferences. Windows folder icons are unchanged.
+- **0.7.5.1 fix:** deactivation and owner redraw no longer close a folder preview again while it is already closing. Successfully retained child flowers remain valid.
+- **Safer install:** the installer checks for a running app before showing its wizard and requests a normal tray exit. It never forces the app to close. Inno upgrades retain the existing installation identity and skip unchanged files by SHA-256; the download is still a full package.
+
+Hidden/system entries are optional. Leaving the browser closes it after about 500 ms. Network results arriving after close are discarded; an OS file call cannot always be interrupted. Folder groups use path ancestry rather than resolving junction targets. [Folder usage guide (Chinese)](docs/desktop.md).
+
+The protected program passed 27 close-lifecycle/Paper regressions, 119 folder-preview checks, 146 badge checks, 76 flower-action checks and 125 onboarding checks. Tests use synthetic content; routed UI events are not physical mouse acceptance. The full workbench-theme suite stopped at its no-foreground-activation assertion and is not counted as passing. A separate real CSV workbench check verified in-place theme changes, preserved data/input and contrast offscreen. See [validation scope](docs/validation.md). The installer and program remain unsigned.
+
+## Previous release: 0.7.4
 
 - **Freehand screenshot pen:** six colors, 2 / 3 / 6 physical-pixel widths, whole-stroke undo and Esc to cancel the current stroke. Available in both themes, immediately after selection mode.
 - **Enter to copy and finish:** copy the selected image with annotations to the clipboard, close capture, then press Ctrl+V in a compatible chat or app. No screenshot file is required. Ctrl+S still opens Save As. Text editing keeps its normal Enter behavior; a failed copy keeps your selection and annotations.
@@ -96,8 +115,8 @@ Office-to-PDF conversion can use configured Microsoft Office or LibreOffice. Enh
 2. Check the SHA-256 value:
 
    ```powershell
-   Get-FileHash -Algorithm SHA256 -LiteralPath .\LightOffice-0.7.4.0-Setup.exe
-   Get-Content -LiteralPath .\LightOffice-0.7.4.0-Setup.exe.sha256
+   Get-FileHash -Algorithm SHA256 -LiteralPath .\LightOffice-0.7.5.1-Setup.exe
+   Get-Content -LiteralPath .\LightOffice-0.7.5.1-Setup.exe.sha256
    ```
 
 3. The Chinese installer provides a license, custom writable installation directory, options, progress and an independent `unins000.exe`. It installs for the current user without requesting administrator privileges. Uninstall from Windows Settings, the Start menu or the uninstaller.
