@@ -1,4 +1,4 @@
-# 全部功能操作手册 · 0.7.2.0
+﻿# 全部功能操作手册 · 0.7.2.0
 
 [全功能导航与子操作](catalog.md) · [数据科学详解](data-science.md) · [截图详解](capture.md) · [桌面与整理](desktop.md) · [组件与文件处理](components.md) · [可下载示例](../examples/README.md)
 
@@ -19,7 +19,7 @@
 | 效率 | [批量重命名](#rename-batch) | [界面](../screenshots/batch-rename.png) |
 | 图片 | [图片 / PDF 水印](#watermark) | [界面](../screenshots/watermark.png) |
 | PDF | [PDF 添加水印](#pdf-watermark) | [界面](../screenshots/pdf-watermark.png) |
-| PDF | [移除轻舟水印](#pdf-remove-watermark) | [界面](../screenshots/pdf-remove-watermark.png) |
+| PDF | [移除已添加水印](#pdf-remove-watermark) | [界面](../screenshots/pdf-remove-watermark.png) |
 | 效率 | [常用打开方式](#open-with) | [界面](../screenshots/open-with.png) |
 | 效率 | [定位文件](#locate) | [界面](../screenshots/flower-efficiency.png) |
 | 效率 | [复制路径](#copy-path) | [界面](../screenshots/flower-efficiency.png) |
@@ -130,16 +130,18 @@
 <img src="../screenshots/pdf-watermark.png" width="820" alt="PDF 添加水印：合成测试文件的真实界面" />
 
 <a id="pdf-remove-watermark"></a>
-### 移除轻舟水印
+### 移除已添加水印
 
-- **入口**：PDF花瓣 / 全部工具搜索「移除轻舟水印」。
+名称自 0.7.4 起调整；0.7.3 及下方历史演示图显示旧名「移除轻舟水印」。处理范围不变：仅本软件添加且保留恢复标记的 PDF 水印。见[当前界面](getting-started.md#pdf-名称与反馈)。
+
+- **入口**：PDF花瓣 / 全部工具搜索「移除已添加水印」。
 - **输入**：保留轻舟水印恢复标记的 PDF。
 - **操作**：打开移除入口，选择输出目录，另存恢复原页面。
-- **输出**：移除轻舟水印的新 PDF。
+- **输出**：移除已添加水印的新 PDF。
 - **边界**：只识别本软件添加的水印；其他水印与扫描图不自动处理，无标记时拒绝输出。
 - **测试演示**：[查看原图](../screenshots/pdf-remove-watermark.png)。
 
-<img src="../screenshots/pdf-remove-watermark.png" width="820" alt="移除轻舟水印：合成测试文件的真实界面" />
+<img src="../screenshots/pdf-remove-watermark.png" width="820" alt="移除已添加水印：合成测试文件的真实界面" />
 
 <a id="pdf-split"></a>
 ### PDF 拆分
@@ -185,7 +187,7 @@
 
 - **入口**：截图花瓣 / 全部工具搜索「截图」。
 - **输入**：当前屏幕、窗口或框选区域。
-- **操作**：选区 / 窗口 / 全屏；矩形、箭头、文字、打码后复制、保存或贴图。
+- **操作**：选区 / 窗口 / 全屏；自由画笔、矩形、箭头、文字、打码后复制、保存或贴图。画笔六色与三档粗细，Ctrl+Z 整笔撤销；Enter 复制并关闭，Ctrl+S 另存 PNG。
 - **输出**：剪贴板图片 / PNG / 桌面贴图。
 - **边界**：交互上限 1600 万像素；识别与翻译见下表。
 - **测试演示**：[查看原图](../screenshots/capture.png)。

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/brand/lightoffice-128.png" width="88" alt="轻舟六瓣花图标" />
 
@@ -8,12 +8,14 @@
 
 图片 · PDF · 截图识别与翻译 · 压缩 · CSV 数据科学
 
+**简体中文** · [English](README.en.md)
+
 [![Release](https://img.shields.io/github/v/release/mengqy2022/LightOffice-Public?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-467a85?style=flat-square)](docs/usage.md)
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.3/LightOffice-0.7.3.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.3/LightOffice-0.7.3.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.4/LightOffice-0.7.4.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.4/LightOffice-0.7.4.0-windows.zip) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -25,9 +27,11 @@
 
 > 此仓库提供产品展示、用户文档、问题反馈和二进制发行。完整开发源码与测试工程不在本仓库发布。演示图使用合成文件，不含用户实际文件内容。
 
+README 提供简体中文与英文入口；**软件界面和安装向导目前为简体中文**，文档语言切换不改变软件语言。详细专题目前主要为中文。
+
 ## 功能导航与版本
 
-**当前正式版为 0.7.3.0。** 新版增加完整中文安装向导、自定义目录、许可说明及独立卸载程序；[安装与卸载指南](docs/installation.md)。 包含经典 / 圆弧主题、全工作台换色、启动修复、翻译服务配置与标准卸载；0.6 图片保留为历史功能基线。
+**当前版本为 0.7.4.0。** 新增截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
 
 | 想做什么 | 图文教程 |
 |---|---|
@@ -63,7 +67,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 |---|---|
 | 转换 | [图片格式转换](docs/features.md#image-convert) · [办公文档转 PDF](docs/features.md#document-convert) |
 | 图片 | [调整尺寸](docs/features.md#resize) · [裁剪与旋转](docs/features.md#crop) · [图片批处理](docs/features.md#image-batch) · [图片 / PDF 水印](docs/features.md#watermark) |
-| PDF | [拆分](docs/features.md#pdf-split) · [合并](docs/features.md#pdf-merge) · [统一 A4](docs/features.md#pdf-a4) · [添加水印](docs/features.md#pdf-watermark) · [移除轻舟水印](docs/features.md#pdf-remove-watermark) |
+| PDF | [拆分](docs/features.md#pdf-split) · [合并](docs/features.md#pdf-merge) · [统一 A4](docs/features.md#pdf-a4) · [添加水印](docs/features.md#pdf-watermark) · [移除已添加水印](docs/features.md#pdf-remove-watermark) |
 | 截图 | [截图与识别翻译](docs/features.md#capture) · [桌面贴图](docs/features.md#pin-image) |
 | 压缩 | [压缩文件](docs/features.md#compress) · [解压文件](docs/features.md#extract) · [预览 ZIP](docs/features.md#zip-preview) |
 | 效率 | [打开文件](docs/features.md#open) · [常用打开方式](docs/features.md#open-with) · [定位文件](docs/features.md#locate) · [复制路径](docs/features.md#copy-path) · [重命名文件](docs/features.md#rename) · [批量重命名](docs/features.md#rename-batch) · [预览文本](docs/features.md#text-preview) · [数据科学](docs/features.md#data-science) |
@@ -104,7 +108,13 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 <img src="screenshots/capture-annotation-options-0.7.2.png" width="1000" alt="0.7.2候选：箭头、色板、线宽和识别翻译工具栏" />
 
-框选、窗口、全屏，矩形 / 箭头 / 文字 / 打码、色板与线宽、手柄、撤销和键盘微调。结果可复制、保存、保存并贴图或直接贴图；贴图支持移动、缩放与另存。0.7 系列增加 [LibreTranslate 服务配置](screenshots/translation-service-0.7.2.png)。
+框选、窗口、全屏，自由画笔 / 矩形 / 箭头 / 文字 / 打码、六色色板与 2 / 3 / 6 px 线宽、手柄、整笔撤销和键盘微调。**Enter 复制包含标注的截图并关闭，到聊天框或 APP 按 Ctrl+V 即可粘贴，不必保存文件；Ctrl+S 另存 PNG。** 输入文字与选择语言时保留 Enter 原用途；复制失败保留编辑。结果也可保存并贴图或直接贴图；贴图支持移动、缩放与另存。0.7 系列增加 [LibreTranslate 服务配置](screenshots/translation-service-0.7.2.png)。
+
+| 经典主题画笔 | 圆弧主题画笔 |
+|---|---|
+| ![经典主题画笔与 Enter 复制](screenshots/capture-pen-classic-0.7.4.png) | ![圆弧主题画笔与 Enter 复制](screenshots/capture-pen-circular-0.7.4.png) |
+
+两图来自当前真实控件的离屏渲染，使用合成内容。画笔在「框选」右侧，按住鼠标绘制；Ctrl+Z 整笔撤销，绘制中 Esc 取消本笔。
 
 [完整操作、快捷键与隐私 →](docs/capture.md)
 
@@ -130,11 +140,11 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 <img src="screenshots/capture-toolbar-dark-0.7.2.png" width="1000" alt="圆弧主题下的截图工具栏" />
 
-三档尺寸、保持紧凑、收起小花心、多开、工作台置顶、登录自启、暂停自动展开和目录排除分别可设置。[桌面功能说明 →](docs/desktop.md) · [候选变化 →](docs/preview-0.7.md)
+三档尺寸、保持紧凑、收起小花心、多开、工作台置顶、登录自启、暂停自动展开和目录排除分别可设置。0.7.4 按工作区与 DPI 限制窗口，低于设计最小尺寸时提供滚动，移回大屏恢复布局；截图工具栏换行并可滚动。[桌面功能说明 →](docs/desktop.md) · [候选变化 →](docs/preview-0.7.md)
 
 ## 安装与更新
 
-1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.3.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
+1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.7.4.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
 2. 按[下载校验说明](releases/README.md)核对 SHA-256。安装器仅安装到当前用户目录，无需管理员权限；也可解压 ZIP 后运行 `LightOffice.exe`。
 3. 从托盘设置紧凑尺寸、登录自启、置顶与可选组件。开始菜单 / 桌面快捷方式使用同一品牌图标。
 
@@ -142,11 +152,17 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 ## 验证与功能边界
 
-截图来自真实 WPF 窗口与合成文件，界面展示与实际导出验证分别记录。PDF 水印通过独立引擎比对文字、纸张、旋转及移除后的页面像素；7z / RAR 检查包含真实外部引擎。Windows 登录自启、休眠、多显示器 DPI 切换仍需对应实机环境验收，不能仅凭截图判定通过。
+截图来自真实 WPF 窗口与合成文件，界面展示与实际导出验证分别记录。PDF 水印通过独立引擎比对文字、纸张、旋转及移除后的页面像素；7z / RAR 检查包含真实外部引擎。当前保护构建通过 165 项画笔 / Enter / 小屏专项，剪贴板使用隔离接口，未改动用户剪贴板。此前候选完成真实双屏 DPI、Windows 缩放设置、桌面截图及 112 项人工窗口操作；短时 S0 进退有系统记录。最新画笔与 Enter 后 APP 粘贴、真实登录、长期待机 / 休眠和干净系统组合仍需人工验收，不能仅凭截图判定通过。
+
+当前安装包采用同一正式 ZIP 制作隔离测试，38 项真实安装 / 卸载通过，89 项程序 / 文档载荷逐文件哈希匹配。程序与安装器目前未做代码签名，下载后请核对 `.sha256`。
 
 请阅读[功能边界与常见问题](docs/faq.md)、[验证说明](docs/validation.md)和[已有测量](docs/performance.md)。历史启动 / 内存数据标明构建与条件，不作为所有机器或新版的性能保证。
 
 ## 参与反馈
+
+**开发者：Mengqy · 开发平台：Codex · 软件：轻舟 / LightOffice。** 当前公开正式版本见页面顶部；软件内「关于轻舟」显示实际运行版本。
+
+[轻舟博客与许可说明](https://www.mqymmb.com/posts/lightoffice/#license-note) · [博客文章评论反馈](https://www.mqymmb.com/posts/lightoffice/#license-note) · 邮箱：**15877464851@163.com**。可在文章评论区留言，或自行发邮件；请附版本、复现步骤和错误文字。
 
 [报告问题](https://github.com/mengqy2022/LightOffice-Public/issues/new?template=bug_report.yml) · [提出建议](https://github.com/mengqy2022/LightOffice-Public/issues/new?template=feature_request.yml) · [后续路线](docs/roadmap.md)
 

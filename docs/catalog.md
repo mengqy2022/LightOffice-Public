@@ -1,10 +1,10 @@
-# 全功能导航：入口、子操作、图片和结果
+﻿# 全功能导航：入口、子操作、图片和结果
 
 [返回首页](../README.md) · [24 个工具的操作手册](features.md) · [完整图片墙](../screenshots/README.md) · [动手示例](../examples/README.md)
 
 第一次使用见[三分钟上手](quickstart.md)；按任务操作见[六个教程与效果对比](tutorials.md)，异常处理见[故障排查](troubleshooting.md)。
 
-这里按用户能完成的事情整理功能，既包含花屿工具，也包含工作台内部操作。当前正式版 0.7.2.0 包含下列 0.7 系列能力；0.6 图片保留为历史基线。界面图不等于每个功能分支都已实机验收，实际范围见[验证说明](validation.md)。
+这里按用户能完成的事情整理功能，既包含花屿工具，也包含工作台内部操作。当前正式版 0.7.4.0 包含下列 0.7 系列能力及截图画笔 / Enter 复制交互；0.6 图片保留为历史基线。界面图不等于每个功能分支都已实机验收，实际范围见[验证说明](validation.md)。
 
 ## 24 个工具入口
 
@@ -20,7 +20,7 @@
 | PDF | PDF 合并 | 多文件排序后合并 | [操作](features.md#pdf-merge) · [图](../screenshots/pdf-merge.png) |
 | PDF | PDF 统一 A4 | 逐页尺寸检查、保留横纵、等比居中 | [操作](features.md#pdf-a4) · [图](../screenshots/pdf-a4.png) |
 | PDF | PDF 添加水印 | 带轻舟恢复标记的新 PDF | [操作](features.md#pdf-watermark) · [图](../screenshots/pdf-watermark.png) |
-| PDF | 移除轻舟水印 | 只恢复本软件标记，不处理任意扫描水印 | [操作](features.md#pdf-remove-watermark) · [图](../screenshots/pdf-remove-watermark.png) |
+| PDF | 移除已添加水印 | 只恢复本软件标记，不处理任意扫描水印 | [操作](features.md#pdf-remove-watermark) · [图](../screenshots/pdf-remove-watermark.png) |
 | 截图 | 截图 | 框选、窗口、全屏、标注、OCR、翻译与输出 | [操作](features.md#capture) · [专题](capture.md) |
 | 截图 | 桌面贴图 | 留置已有图片或未保存截图，移动、缩放和另存 | [操作](features.md#pin-image) · [图](../screenshots/pinned-image.png) |
 | 压缩 | 压缩文件 | 多文件 / 文件夹 ZIP；可选 7z | [操作](features.md#compress) · [图](../screenshots/archive-compress.png) |

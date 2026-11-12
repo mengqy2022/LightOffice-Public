@@ -1,14 +1,25 @@
-# 功能图片墙：每一项都能直接浏览
+﻿# 功能图片墙：每一项都能直接浏览
 
 [全功能导航](../docs/catalog.md) · [操作手册](../docs/features.md) · [体验数据与真实输出](../examples/README.md)
 
-共 62 张界面图与合成封面，按场景分组，两列浏览，点击图片可放大。原有 0.6 正式版图保留版本基线，文件名含 0.7 的图采集于候选阶段，所示能力已随 0.7.2 正式发布，当前公开下载以 Releases 为准。
+共 69 张界面图与合成封面，按场景分组，两列浏览，点击图片可放大。原有 0.6 正式版图保留版本基线，文件名含 0.7 的图采集于候选阶段，所示能力已随 0.7.2 正式发布，当前公开下载以 Releases 为准。
 
 所有图来自真实 WPF 界面或基于真实界面的组合，使用合成输入。新增细节图离屏渲染，不截图私人桌面。组件本机路径已隐藏，批量改名目录已明确替换；翻译服务图使用保留示例域名，未访问服务。PDF 水印旧图仅为位置示意，不能代表已显示真实原页。
 
 图片只证明所展示的界面和状态；实际导出、网络服务与未验环境见[验证说明](../docs/validation.md)。
 
-想看连续步骤和处理前后效果，另见[任务教程的三幅对比图与三个步骤动图](../docs/tutorials.md)。这些媒体不计入下列 62 张界面图。
+想看连续步骤和处理前后效果，另见[任务教程的三幅对比图与三个步骤动图](../docs/tutorials.md)。这些媒体不计入下列 69 张界面图。
+
+## 0.7.4 新增交互
+
+以下均为真实控件的离屏渲染，合成输入，不是操作录像；历史功能图保留原版本范围。
+
+| 功能展示 | 功能展示 |
+|---|---|
+| **经典主题操作引导**<br/><img src="getting-started-classic-0.7.4.png" width="480" alt="经典主题操作引导" /> | **圆弧主题操作引导**<br/><img src="getting-started-circular-0.7.4.png" width="480" alt="圆弧主题操作引导" /> |
+| **经典画笔与 Enter 复制**<br/><img src="capture-pen-classic-0.7.4.png" width="480" alt="经典画笔与 Enter 复制" /> | **圆弧画笔与 Enter 复制**<br/><img src="capture-pen-circular-0.7.4.png" width="480" alt="圆弧画笔与 Enter 复制" /> |
+| **紧凑快捷键提示**<br/><img src="capture-tip-0.7.4.png" width="480" alt="紧凑快捷键提示" /> | **PDF 移除已添加水印**<br/><img src="watermark-removal-0.7.4.png" width="480" alt="PDF 移除已添加水印" /> |
+| **低有效高度滚动布局**<br/><img src="small-screen-science-0.7.4.png" width="480" alt="小工作区数据科学滚动布局" /> | [操作教学](../docs/getting-started.md) · [截图与 Enter](../docs/capture.md) · [显示适配范围](../docs/desktop.md) |
 
 ## 桌面与花屿（0.6）
 

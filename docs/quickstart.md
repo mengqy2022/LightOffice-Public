@@ -2,7 +2,9 @@
 
 [下载安装](../releases/README.md) · [六个任务教程](tutorials.md) · [遇到问题](troubleshooting.md)
 
-适用 Windows 10 / 11、系统 .NET Framework 4.8。公开正式版为 0.7.3.0，旧版差异见[版本对照](versions.md)。基础使用无需安装 Microsoft Office、Python 或 R。
+适用 Windows 10 / 11、系统 .NET Framework 4.8。本页对应 0.7.4.0，旧版差异见[版本对照](versions.md)。基础使用无需安装 Microsoft Office、Python 或 R。
+
+首次手动启动会显示四步引导，可直接开始真实的 CSV 筛选与另存练习；随时可从托盘「使用引导与快捷键…」重看。详见[操作教学与按需提示](getting-started.md)。
 
 ## 第一分钟：安装或解压
 
