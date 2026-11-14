@@ -15,7 +15,7 @@
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [博客说明](https://www.mqymmb.com/posts/lightoffice/) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -181,7 +181,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 **开发者：Mengqy · 开发平台：Codex · 软件：轻舟 / LightOffice。** 当前公开正式版本见页面顶部；软件内「关于轻舟」显示实际运行版本。
 
-[轻舟博客与许可说明](https://www.mqymmb.com/posts/lightoffice/#license-note) · [博客文章评论反馈](https://www.mqymmb.com/posts/lightoffice/#license-note) · 邮箱：**15877464851@163.com**。可在文章评论区留言，或自行发邮件；请附版本、复现步骤和错误文字。
+[轻舟博客说明](https://www.mqymmb.com/posts/lightoffice/) · [博客许可说明](https://www.mqymmb.com/posts/lightoffice/#license-note) · 邮箱：**15877464851@163.com**。可在文章评论区留言，或自行发邮件；请附版本、复现步骤和错误文字。
 
 [报告问题](https://github.com/mengqy2022/LightOffice-Public/issues/new?template=bug_report.yml) · [提出建议](https://github.com/mengqy2022/LightOffice-Public/issues/new?template=feature_request.yml) · [后续路线](docs/roadmap.md)
 

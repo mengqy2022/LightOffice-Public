@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: 轻舟博客说明 / Product blog
+    url: https://www.mqymmb.com/posts/lightoffice/
+    about: 阅读软件介绍与使用说明，也可在文章评论区交流。 / Read the product introduction and usage notes, or leave a comment.

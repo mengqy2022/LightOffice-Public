@@ -57,4 +57,4 @@
 
 ![移除已添加水印及适用范围说明](../screenshots/watermark-removal-0.7.4.png)
 
-关于页显示软件名称、实际版本、开发者 Mengqy 和开发平台 Codex。可前往[博客评论](https://www.mqymmb.com/posts/lightoffice/#license-note)，或发送邮件至 **15877464851@163.com**；软件只打开页面或系统邮件草稿，不自动发送反馈。
+关于页显示软件名称、实际版本、开发者 Mengqy 和开发平台 Codex。可前往[博客评论](https://www.mqymmb.com/posts/lightoffice/)，或发送邮件至 **15877464851@163.com**；软件只打开页面或系统邮件草稿，不自动发送反馈。

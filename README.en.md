@@ -15,7 +15,7 @@ Images · PDF · Screenshots, OCR and translation · Archives · CSV data scienc
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**Download installer**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [Portable ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [All features](docs/catalog.md) · [Screenshot gallery](screenshots/README.md) · [Report an issue](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**Download installer**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [Portable ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [All features](docs/catalog.md) · [Screenshot gallery](screenshots/README.md) · [Report an issue](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose) · [Product blog](https://www.mqymmb.com/posts/lightoffice/)
 
 <img src="screenshots/hero.png" width="1080" alt="LightOffice flower menu, data workbench and in-app translation using synthetic demo files; historical 0.6 interface" />
 
@@ -146,7 +146,7 @@ The release uses the tested protected executable. Its pen/Enter/layout suite pas
 
 **Developer: Mengqy · Development platform: Codex · Product: LightOffice / 轻舟.**
 
-[Blog and comments](https://www.mqymmb.com/posts/lightoffice/#license-note) · Email: **15877464851@163.com** · [GitHub issues](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[Product blog and comments](https://www.mqymmb.com/posts/lightoffice/) · Email: **15877464851@163.com** · [GitHub issues](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 Include the running version, Windows version, steps to reproduce and the error text. Remove private file contents, account details and local paths before sharing.
 
