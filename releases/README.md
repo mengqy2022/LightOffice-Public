@@ -1,15 +1,15 @@
-# 下载、校验与更新
+﻿# 下载、校验与更新
 
 正式入口：[GitHub Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest)。安装文件作为 Release 资产分发，此目录只保存说明，不保存源码。
 
-当前正式发布为 **0.7.5.1**。新增纸墨主题、透明文件夹浏览、母子花心与组配色，修复关闭异常并补充安装更新；保留完整安装向导、自定义目录和独立卸载 EXE；查看[版本对照](../docs/versions.md)和[新版说明](../docs/preview-0.7.md)。
+当前正式发布为 **0.8.0.0**。新增统一批量任务中心、100条本地元数据历史、中断标记与取消，优化改名、文件夹分页和CSV响应；保留完整安装向导、自定义目录和独立卸载 EXE；查看[版本对照](../docs/versions.md)和[新版说明](../docs/release-0.8.md)。
 
 安装步骤、路径选择、许可、选项和卸载入口见[安装指南](../docs/installation.md)。同版本在原登记目录可重装；更换目录前先卸载。识别Inno旧版原位更新；更早旧式安装保持独立。
 
 | 文件 | 用途 |
 |---|---|
-| `LightOffice-0.7.5.1-Setup.exe` | 中文向导、自定义目录、许可说明、进度、独立卸载程序 |
-| `LightOffice-0.7.5.1-windows.zip` | 便携包，解压后运行 EXE |
+| `LightOffice-0.8.0.0-Setup.exe` | 中文向导、自定义目录、许可说明、进度、独立卸载程序 |
+| `LightOffice-0.8.0.0-windows.zip` | 便携包，解压后运行 EXE |
 | 对应的 `.sha256` | SHA-256 校验值 |
 
 需要 Windows 10 / 11 和 .NET Framework 4.8。基础包不含 LibreOffice、7-Zip、Bandizip、Python / R；按需配置已有引擎。程序及安装器目前未做代码签名，请从上述发布页取得文件并核对校验值。
@@ -17,8 +17,8 @@
 PowerShell 校验示例：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath .\LightOffice-0.7.5.1-Setup.exe
-Get-Content -LiteralPath .\LightOffice-0.7.5.1-Setup.exe.sha256
+Get-FileHash -Algorithm SHA256 -LiteralPath .\LightOffice-0.8.0.0-Setup.exe
+Get-Content -LiteralPath .\LightOffice-0.8.0.0-Setup.exe.sha256
 ```
 
 对 ZIP 同样操作。计算结果应与 `.sha256` 第一列完全一致。不要只复制便携包中的 EXE，保留同目录 DLL、配置和第三方许可。
@@ -32,4 +32,4 @@ Get-Content -LiteralPath .\LightOffice-0.7.5.1-Setup.exe.sha256
 第一次安装可按[三分钟上手](../docs/quickstart.md)操作；遇到启动或引擎问题先看[故障排查](../docs/troubleshooting.md)。不同版本与回退步骤集中在[版本说明](../docs/versions.md)。
 
 
-0.7.5.1 使用适度内部方法混淆，不增加运行引擎；没有随包提供源码、符号或混淆映射。自有新材料使用[专有许可](../docs/licensing.md)，保留此前 MIT 授权与第三方许可。程序和安装器本次未签名，请核对官方资产与 SHA-256。
+0.8.0.0 使用适度内部方法混淆，不增加运行引擎；没有随包提供源码、符号或混淆映射。自有新材料使用[专有许可](../docs/licensing.md)，保留此前 MIT 授权与第三方许可。程序和安装器本次未签名，请核对官方资产与 SHA-256。

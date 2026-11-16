@@ -1,0 +1,85 @@
+{
+  "checks": 10,
+  "version": "0.8.0.0",
+  "scope": "single machine; synthetic CSV; sampled peaks; no low-end hardware or XLSX claim; no forced GC",
+  "cases": [
+    {
+      "inputMiB": 100,
+      "inputBytes": 104857621,
+      "rows": 102400,
+      "exportMs": 8196,
+      "peakSampledPrivateBytes": 40300544,
+      "peakSampledWorkingSetBytes": 41803776,
+      "privateBytesAfter": 40300544,
+      "maxDispatcherGapMs": 53,
+      "dispatcherTicks": 250,
+      "cancelMs": 126
+    },
+    {
+      "inputMiB": 500,
+      "inputBytes": 524288021,
+      "rows": 512000,
+      "exportMs": 37289,
+      "peakSampledPrivateBytes": 40833024,
+      "peakSampledWorkingSetBytes": 42422272,
+      "privateBytesAfter": 40484864,
+      "maxDispatcherGapMs": 50,
+      "dispatcherTicks": 1080,
+      "cancelMs": 122
+    }
+  ],
+  "environment": {
+    "sha256": "CD064CCE36458548E084F03ADF6D6DA03D5FDA6E77E82C589520D93079FA0CD1",
+    "operatingSystem": "Microsoft Windows NT 10.0.26300.0",
+    "logicalProcessors": 20,
+    "is64BitProcess": true,
+    "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+    "physicalMemoryBytes": 68447211520,
+    "lowEndMachine": false,
+    "forcedGC": false
+  },
+  "images": [
+    {
+      "kind": "images",
+      "count": 30,
+      "sourceWidth": 2400,
+      "sourceHeight": 1600,
+      "elapsedMs": 1990,
+      "peakSampledPrivateBytes": 167305216,
+      "peakSampledWorkingSetBytes": 158765056,
+      "privateBytesAfter": 144355328,
+      "maxDispatcherGapMs": 46
+    }
+  ],
+  "application": {
+    "idleElapsedMs": 5015,
+    "idleCpuMs": 281.25,
+    "idleWorkingSetBytes": 93179904,
+    "idlePrivateBytes": 106340352,
+    "privateBytesBeforeRepeatedWindows": 106340352,
+    "windowBatches": [
+      {
+        "windows": 40,
+        "privateBytes": 164757504,
+        "handles": 934
+      },
+      {
+        "windows": 80,
+        "privateBytes": 164769792,
+        "handles": 934
+      },
+      {
+        "windows": 120,
+        "privateBytes": 165105664,
+        "handles": 934
+      }
+    ],
+    "privateBytesAfterRepeatedWindows": 165105664,
+    "handlesAfterRepeatedWindows": 934,
+    "checks": 17,
+    "mode": "full",
+    "actualMain": true,
+    "testHostRedirectsConfig": true,
+    "version": "0.8.0.0"
+  }
+}

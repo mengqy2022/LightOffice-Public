@@ -1,4 +1,4 @@
-# 轻舟使用说明
+﻿# 轻舟使用说明
 
 找具体操作：[全部功能](catalog.md) · [数据科学](data-science.md) · [截图与翻译](capture.md) · [花屿与改名](desktop.md) · [组件与转换](components.md) · [体验数据](../examples/README.md)
 

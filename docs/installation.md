@@ -1,4 +1,4 @@
-# 安装、升级与卸载
+﻿# 安装、升级与卸载
 
 [正式下载](../releases/README.md) · [三分钟上手](quickstart.md) · [版本对照](versions.md)
 

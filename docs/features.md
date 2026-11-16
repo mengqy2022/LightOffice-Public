@@ -1,4 +1,4 @@
-﻿# 全部功能操作手册 · 0.7.2.0
+﻿# 全部功能操作手册 · 0.8.0.0
 
 [全功能导航与子操作](catalog.md) · [数据科学详解](data-science.md) · [截图详解](capture.md) · [桌面与整理](desktop.md) · [组件与文件处理](components.md) · [可下载示例](../examples/README.md)
 
@@ -381,3 +381,10 @@
 [花屿](../screenshots/flower.png) · [小花心](../screenshots/flower-badge.png) · [多开](../screenshots/flower-retained.png) · [组件](../screenshots/components.png) · [关于](../screenshots/about.png)
 
 登录、休眠和真实多屏 DPI 切换并未因几何检查或界面图自动视为通过。见[验证说明](validation.md)。
+
+
+<a id="task-center"></a>
+
+## 批量任务中心
+
+无需选择文件：从托盘或全部工具打开。图片、改名、PDF、压缩与CSV/TSV长操作统一排队，显示进度/阶段、结果、错误和取消入口。最近100条历史仅恢复元数据，中断任务不自动重做。清理历史不删除输出。完整步骤、三主题图片及边界见[任务中心教程](task-center.md)与[English guide](task-center.en.md)。

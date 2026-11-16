@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/brand/lightoffice-128.png" width="88" alt="LightOffice flower icon" />
 
@@ -15,7 +15,7 @@ Images · PDF · Screenshots, OCR and translation · Archives · CSV data scienc
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**Download installer**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-Setup.exe) · [Portable ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.7.5.1/LightOffice-0.7.5.1-windows.zip) · [All features](docs/catalog.md) · [Screenshot gallery](screenshots/README.md) · [Report an issue](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose) · [Product blog](https://www.mqymmb.com/posts/lightoffice/)
+[**Download installer**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0/LightOffice-0.8.0.0-Setup.exe) · [Portable ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0/LightOffice-0.8.0.0-windows.zip) · [All features](docs/catalog.md) · [Screenshot gallery](screenshots/README.md) · [Report an issue](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose) · [Product blog](https://www.mqymmb.com/posts/lightoffice/)
 
 <img src="screenshots/hero.png" width="1080" alt="LightOffice flower menu, data workbench and in-app translation using synthetic demo files; historical 0.6 interface" />
 
@@ -23,9 +23,19 @@ Images · PDF · Screenshots, OCR and translation · Archives · CSV data scienc
 
 LightOffice is a Windows tray utility built with C# and WPF. Select a file to reveal a flower menu with relevant actions. Tool windows can move independently, close and stay on top while you continue working with other files.
 
-**Current release: 0.7.5.1.** This is the English product overview. The application interface, installer and detailed guides are currently in **Simplified Chinese**; switching README language does not change the application language. Links to detailed guides below lead to Chinese documentation.
+**Current release: 0.8.0.0.** This is the English product overview. The application interface, installer and detailed guides are currently in **Simplified Chinese**; switching README language does not change the application language. Links to detailed guides below lead to Chinese documentation.
 
 The base package does not include LibreOffice, 7-Zip, Bandizip, Python or R. Configure optional engines only when needed. File processing runs locally; online translation sends text only when requested. This repository contains product documentation, synthetic examples, screenshots and binary releases. Development source code, tests and protection mappings are not published here.
+
+## New in 0.8.0.0
+
+A unified task center for image batches, rename/recovery, PDF, archives and CSV/TSV processing. View queue state, stages, cancellation, results and errors. Up to 100 local metadata records survive restart; unfinished work becomes Interrupted and is never automatically replayed. No new runtime engine is bundled.
+
+[English task guide](docs/task-center.en.md) · [中文教程](docs/task-center.md) · [Validation scope](docs/validation.md) · [0.8 release notes](docs/release-0.8.md)
+
+![Paper task center using synthetic jobs](screenshots/task-center-paper-0.8.png)
+
+Independent rename windows, Enter-to-finish, cached folder paging, background CSV preparation and event-driven task refresh improve interaction. Existing tools and three themes remain available.
 
 ## New in 0.7.5.1
 
@@ -62,7 +72,7 @@ The protected program passed 27 close-lifecycle/Paper regressions, 119 folder-pr
 
 These are actual WPF controls rendered offscreen with synthetic content. They are not recordings of physical mouse input. [Release notes](docs/changelog.md) · [Validation scope](docs/validation.md)
 
-## 24 tools in six categories
+## 25 tools in six categories
 
 | Category | Tools |
 |---|---|
@@ -71,7 +81,7 @@ These are actual WPF controls rendered offscreen with synthetic content. They ar
 | PDF | [Split](docs/features.md#pdf-split) · [Merge](docs/features.md#pdf-merge) · [Fit pages proportionally to A4](docs/features.md#pdf-a4) · [Add watermark](docs/features.md#pdf-watermark) · [Remove added watermark](docs/features.md#pdf-remove-watermark) |
 | Capture | [Screenshots, annotation, OCR and translation](docs/features.md#capture) · [Pin image to desktop](docs/features.md#pin-image) |
 | Archives | [Compress](docs/features.md#compress) · [Extract](docs/features.md#extract) · [Preview ZIP](docs/features.md#zip-preview) |
-| Productivity | [Open file](docs/features.md#open) · [Open with](docs/features.md#open-with) · [Locate file](docs/features.md#locate) · [Copy path](docs/features.md#copy-path) · [Rename](docs/features.md#rename) · [Batch rename](docs/features.md#rename-batch) · [Preview text](docs/features.md#text-preview) · [Data science](docs/features.md#data-science) |
+| Productivity | [Open file](docs/features.md#open) · [Open with](docs/features.md#open-with) · [Locate file](docs/features.md#locate) · [Copy path](docs/features.md#copy-path) · [Rename](docs/features.md#rename) · [Batch rename](docs/features.md#rename-batch) · [Preview text](docs/features.md#text-preview) · [Data science](docs/features.md#data-science) · [Batch task center](docs/features.md#task-center) |
 
 ### CSV data science without a separate language runtime
 
