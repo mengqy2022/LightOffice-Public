@@ -119,3 +119,12 @@
 | **候选组件配置及MuPDF入口，本地路径已隐藏**<br/><a href="components-current-0.7.2.png"><img src="components-current-0.7.2.png" width="480" alt="候选组件配置及MuPDF入口，本地路径已隐藏" /></a> | **Windows 默认与推荐打开方式**<br/><a href="open-with.png"><img src="open-with.png" width="480" alt="Windows 默认与推荐打开方式" /></a> |
 | **单文件改名**<br/><a href="rename.png"><img src="rename.png" width="480" alt="单文件改名" /></a> | **批量改名的原名 / 新名预览**<br/><a href="batch-rename.png"><img src="batch-rename.png" width="480" alt="批量改名的原名 / 新名预览" /></a> |
 | **前后缀、序号、预览和恢复入口，目录明确替换**<br/><a href="rename-rules-0.7.2.png"><img src="rename-rules-0.7.2.png" width="480" alt="前后缀、序号、预览和恢复入口，目录明确替换" /></a> | **文本只读预览**<br/><a href="text-preview.png"><img src="text-preview.png" width="480" alt="文本只读预览" /></a> |
+
+
+## 0.8.0.1 交互小更新
+
+[更新与使用方法](../docs/release-0.8.0.1.md)。以下为受保护WPF控件的合成数据离屏渲染，不是物理操作截图。
+
+| 紧凑圆弧 | 子文件菜单 |
+|---|---|
+| ![紧凑圆弧](circular-compact-0.8.0.1.png) | ![子文件复制路径与改名](folder-entry-menu-0.8.0.1.png) |

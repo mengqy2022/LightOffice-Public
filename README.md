@@ -15,7 +15,7 @@
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0/LightOffice-0.8.0.0-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0/LightOffice-0.8.0.0-windows.zip) · [博客说明](https://www.mqymmb.com/posts/lightoffice/) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0.1/LightOffice-0.8.0.1-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0.1/LightOffice-0.8.0.1-windows.zip) · [博客说明](https://www.mqymmb.com/posts/lightoffice/) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -29,9 +29,21 @@
 
 README 提供简体中文与英文入口；**软件界面和安装向导目前为简体中文**，文档语言切换不改变软件语言。详细专题目前主要为中文。
 
-## 0.7.5.1：纸墨与文件夹花心
+## 0.8.0.1：更紧凑、更直接的桌面交互
 
-**当前版本：0.8.0.0 · 2026-11-16。**
+**当前版本：0.8.0.1 · 2026-11-18。**
+
+- 自动花屿直接跟随目标；避免重复位移动画，低渲染能力时降级为淡入。
+- 圆弧操作按钮缩至48 DIP，靠近花心排列，在屏幕边缘向可用空间聚拢；空间不足回退紧凑列表。
+- 未修改名称也可按 Enter 关闭重命名窗口；无效或冲突名称继续保留编辑。
+- 子文件预览支持右键复制路径（Ctrl+Shift+C）及文件重命名（F2）。
+- 统一使用「收起并保留」，移除单独的「多开 +」入口；母子文件夹、组配色与工作台独立保留。
+
+[本次更新与使用方法 / English](docs/release-0.8.0.1.md) · [下载最新版](https://github.com/mengqy2022/LightOffice-Public/releases/latest)
+
+小优化累积后统一发布一个版本，安装版作为推荐下载，便携版按需选择；旧版留作回退，不需要逐个安装。
+
+## 历史升级：0.7.5.1 纸墨与文件夹花心
 
 | 纸墨分类卡片 | 透明文件夹列表 |
 |---|---|
@@ -60,7 +72,7 @@ README 提供简体中文与英文入口；**软件界面和安装向导目前�
 
 ## 功能导航与版本
 
-**当前版本为 0.8.0.0。** 新增统一任务中心、100条本地任务元数据历史、中断标记和取消；优化重命名、文件夹分页与CSV响应。保留纸墨主题、文件夹分层预览、母子花心和跨版本安装更新。保留0.7.4的截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧 / 纸墨主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
+**当前版本为 0.8.0.1。** 新增统一任务中心、100条本地任务元数据历史、中断标记和取消；优化重命名、文件夹分页与CSV响应。保留纸墨主题、文件夹分层预览、母子花心和跨版本安装更新。保留0.7.4的截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧 / 纸墨主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
 
 | 想做什么 | 图文教程 |
 |---|---|
@@ -69,7 +81,7 @@ README 提供简体中文与英文入口；**软件界面和安装向导目前�
 | 查全部工具及工作台内部操作 | [全功能导航](docs/catalog.md) · [25 个工具手册](docs/features.md) |
 | 清理数据、筛选和分组、流程复用、绘图 | [数据科学专题](docs/data-science.md) |
 | 截图、标注、识别、软件内翻译和贴图 | [截图专题](docs/capture.md) |
-| 主题、大小、多开、置顶、打开方式和改名 | [桌面与文件整理](docs/desktop.md) |
+| 主题、大小、收起保留、置顶、打开方式和改名 | [桌面与文件整理](docs/desktop.md) |
 | 图片、PDF、文档转换、压缩和可选引擎 | [组件与文件处理](docs/components.md) |
 | 下载数据自己试验，并核对真实输出 | [五分钟示例](examples/README.md) |
 | 直接浏览所有功能图片 | [分类图片墙](screenshots/README.md) |
@@ -173,7 +185,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 ## 安装与更新
 
-1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.8.0.0-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
+1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.8.0.1-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
 2. 按[下载校验说明](releases/README.md)核对 SHA-256。安装器仅安装到当前用户目录，无需管理员权限；也可解压 ZIP 后运行 `LightOffice.exe`。
 3. 从托盘设置紧凑尺寸、登录自启、置顶与可选组件。开始菜单 / 桌面快捷方式使用同一品牌图标。
 
