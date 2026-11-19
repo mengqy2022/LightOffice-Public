@@ -15,7 +15,7 @@
 [![Runtime](https://img.shields.io/badge/.NET_Framework-4.8-71856a?style=flat-square)](docs/faq.md)
 [![Downloads](https://img.shields.io/github/downloads/mengqy2022/LightOffice-Public/total?style=flat-square&color=508d7b)](https://github.com/mengqy2022/LightOffice-Public/releases)
 
-[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0.1/LightOffice-0.8.0.1-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0.1/LightOffice-0.8.0.1-windows.zip) · [博客说明](https://www.mqymmb.com/posts/lightoffice/) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
+[**下载安装包**](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0.2/LightOffice-0.8.0.2-Setup.exe) · [便携 ZIP](https://github.com/mengqy2022/LightOffice-Public/releases/download/v0.8.0.2/LightOffice-0.8.0.2-windows.zip) · [博客说明](https://www.mqymmb.com/posts/lightoffice/) · [三分钟上手](docs/quickstart.md) · [操作教学](docs/getting-started.md) · [六个任务教程](docs/tutorials.md) · [全部功能导航](docs/catalog.md) · [演示图库](screenshots/README.md) · [许可说明](docs/licensing.md) · [反馈问题](https://github.com/mengqy2022/LightOffice-Public/issues/new/choose)
 
 <img src="screenshots/hero.png" width="1080" alt="轻舟 0.6：花屿、数据科学与截图内翻译，合成演示数据的真实界面" />
 
@@ -29,9 +29,17 @@
 
 README 提供简体中文与英文入口；**软件界面和安装向导目前为简体中文**，文档语言切换不改变软件语言。详细专题目前主要为中文。
 
-## 0.8.0.1：更紧凑、更直接的桌面交互
+## 0.8.0.2：文件夹改名与数据科学快捷入口
 
-**当前版本：0.8.0.1 · 2026-11-18。**
+**当前版本：0.8.0.2 · 2026-11-19。**
+
+- **文件夹也能重命名**：收起预览中选中文件夹后按 F2 / 右键改名；花心右键同样支持。修改完整文件夹名称，母子花心、组配色及路径记录同步。
+- **发现数据文件**：悬停收起文件夹，已加载项目包含 CSV/TSV 时显示小型数据科学入口；点击打开所选数据文件，未选择时打开首个，也可右键指定文件。
+- **保持轻量**：判断当前页文件扩展名，不递归扫描、不预读文件内容；XLSX仍不支持。
+
+[本次更新 / English](docs/release-0.8.0.2.md) · [安装升级](docs/installation.md)
+
+保留0.8.0.1的桌面交互改进：
 
 - 自动花屿直接跟随目标；避免重复位移动画，低渲染能力时降级为淡入。
 - 圆弧操作按钮缩至48 DIP，靠近花心排列，在屏幕边缘向可用空间聚拢；空间不足回退紧凑列表。
@@ -72,7 +80,7 @@ README 提供简体中文与英文入口；**软件界面和安装向导目前�
 
 ## 功能导航与版本
 
-**当前版本为 0.8.0.1。** 新增统一任务中心、100条本地任务元数据历史、中断标记和取消；优化重命名、文件夹分页与CSV响应。保留纸墨主题、文件夹分层预览、母子花心和跨版本安装更新。保留0.7.4的截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧 / 纸墨主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
+**当前版本为 0.8.0.2。** 新增统一任务中心、100条本地任务元数据历史、中断标记和取消；优化重命名、文件夹分页与CSV响应。保留纸墨主题、文件夹分层预览、母子花心和跨版本安装更新。保留0.7.4的截图自由画笔、Enter 复制并完成、小屏高缩放布局补强、四步引导、真实 CSV 操作练习、可关闭的紧凑快捷键提示，以及重命名和设置保存成功后自动关闭；[本版操作教学与图示](docs/getting-started.md)。保留中文安装向导、自定义目录、独立卸载程序、经典 / 圆弧 / 纸墨主题与工作台换色；[安装与卸载指南](docs/installation.md)。0.6 图片保留为历史功能基线。
 
 | 想做什么 | 图文教程 |
 |---|---|
@@ -111,7 +119,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 | PDF | [拆分](docs/features.md#pdf-split) · [合并](docs/features.md#pdf-merge) · [统一 A4](docs/features.md#pdf-a4) · [添加水印](docs/features.md#pdf-watermark) · [移除已添加水印](docs/features.md#pdf-remove-watermark) |
 | 截图 | [截图与识别翻译](docs/features.md#capture) · [桌面贴图](docs/features.md#pin-image) |
 | 压缩 | [压缩文件](docs/features.md#compress) · [解压文件](docs/features.md#extract) · [预览 ZIP](docs/features.md#zip-preview) |
-| 效率 | [打开文件](docs/features.md#open) · [常用打开方式](docs/features.md#open-with) · [定位文件](docs/features.md#locate) · [复制路径](docs/features.md#copy-path) · [重命名文件](docs/features.md#rename) · [批量重命名](docs/features.md#rename-batch) · [预览文本](docs/features.md#text-preview) · [数据科学](docs/features.md#data-science) · [批量任务中心](docs/features.md#task-center) |
+| 效率 | [打开文件](docs/features.md#open) · [常用打开方式](docs/features.md#open-with) · [定位文件](docs/features.md#locate) · [复制路径](docs/features.md#copy-path) · [文件 / 文件夹重命名](docs/features.md#rename) · [批量重命名](docs/features.md#rename-batch) · [预览文本](docs/features.md#text-preview) · [数据科学](docs/features.md#data-science) · [批量任务中心](docs/features.md#task-center) |
 
 每个入口都有输入、步骤、输出、边界和对应图片。工作台子操作和桌面设置在[全功能导航](docs/catalog.md)继续展开，不再只列按钮名称。
 
@@ -185,7 +193,7 @@ PDF 与图片结果由 0.7.2实际处理；图示纸张不是扫描件，验证�
 
 ## 安装与更新
 
-1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.8.0.1-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
+1. 在 [Releases](https://github.com/mengqy2022/LightOffice-Public/releases/latest) 下载 `LightOffice-0.8.0.2-Setup.exe` 或便携 ZIP，同时取得对应 `.sha256`。
 2. 按[下载校验说明](releases/README.md)核对 SHA-256。安装器仅安装到当前用户目录，无需管理员权限；也可解压 ZIP 后运行 `LightOffice.exe`。
 3. 从托盘设置紧凑尺寸、登录自启、置顶与可选组件。开始菜单 / 桌面快捷方式使用同一品牌图标。
 

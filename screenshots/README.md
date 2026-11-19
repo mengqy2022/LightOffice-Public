@@ -128,3 +128,14 @@
 | 紧凑圆弧 | 子文件菜单 |
 |---|---|
 | ![紧凑圆弧](circular-compact-0.8.0.1.png) | ![子文件复制路径与改名](folder-entry-menu-0.8.0.1.png) |
+
+
+## 0.8.0.2 文件夹与数据入口
+
+[操作说明](../docs/release-0.8.0.2.md)。受保护程序的真实WPF控件离屏渲染，合成文件，不是物理操作截图。
+
+| 经典 | 圆弧 | 纸墨 |
+|---|---|---|
+| ![经典预览数据入口](folder-data-hint-classic-0.8.0.2.png) | ![圆弧预览数据入口](folder-data-hint-circular-0.8.0.2.png) | ![纸墨预览数据入口](folder-data-hint-paper-0.8.0.2.png) |
+
+![文件和文件夹重命名、数据科学菜单](folder-data-menu-0.8.0.2.png)

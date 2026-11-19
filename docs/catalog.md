@@ -34,7 +34,7 @@
 | 效率 | 常用打开方式 | 系统默认 / 推荐、自定义 EXE、追加推荐 | [操作](features.md#open-with) · [图](../screenshots/open-with.png) |
 | 效率 | 定位文件 | 在资源管理器中选中源文件 | [操作](features.md#locate) · [入口图](../screenshots/flower-efficiency.png) |
 | 效率 | 复制路径 | 复制完整路径到剪贴板 | [操作](features.md#copy-path) · [入口图](../screenshots/flower-efficiency.png) |
-| 效率 | 重命名文件 | F2 / 工具入口，保留扩展名和路径同步 | [操作](features.md#rename) · [图](../screenshots/rename.png) |
+| 效率 | 文件 / 文件夹重命名 | F2 / 工具入口，文件保留扩展名、文件夹完整改名与母子路径同步 | [操作](features.md#rename) · [图](../screenshots/rename.png) |
 | 效率 | 批量重命名 | 前后缀、序号、预览、冲突检测与恢复记录 | [操作](features.md#rename-batch) · [细节图](../screenshots/rename-rules-0.7.2.png) |
 | 效率 | 预览文本 | 编码、搜索、命中跳转、换行和刷新 | [操作](features.md#text-preview) · [图](../screenshots/preview-dark-0.7.2.png) |
 | 效率 | 数据科学 | CSV / TSV 处理、流程复用、追加和四种绘图 | [操作](features.md#data-science) · [完整专题](data-science.md) |
